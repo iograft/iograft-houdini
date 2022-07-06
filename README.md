@@ -69,7 +69,7 @@ Then you will need to edit the `iografthoudini.json` file to point to your speci
 {
     "env": [
         {
-            "IOGRAFT_HOUDINI": "C:/Users/iograft/Projects/iograft-houdini/plugin"
+            "IOGRAFT_HOUDINI": "C:/Users/dtkno/Projects/iograft-public/iograft-houdini/plugin"            
         },
         {
             "IOGRAFT_HOUDINI_ENV": "houdini19"
