@@ -1,0 +1,17 @@
+{
+    "env": [
+        {
+            "IOGRAFT_HOUDINI": "C:/Users/iograft/Projects/iograft-houdini/plugin"
+        },
+        {
+            "IOGRAFT_HOUDINI_ENV": "houdini19"
+        },
+        {
+            "PYTHONPATH": {
+                "value": "C:/Program Files/iograft/python37",
+                "method": "append"
+            }
+        }
+    ],
+    "path": "$IOGRAFT_HOUDINI"
+}

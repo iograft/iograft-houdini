@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024">
+  <defs>
+    <filter id="b" data-name="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="10"/>
+      <feGaussianBlur result="c" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="c" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path d="M769.29,89.971H254.71c-86.685,0-156.957,70.272-156.957,156.957V761.508c0,86.685,70.272,156.957,156.957,156.957H769.29c86.685,0,156.957-70.272,156.957-156.957V246.928c0-86.685-70.272-156.957-156.957-156.957Z" style="fill: #fff;"/>
+  <path d="M769.29,97.425H254.71c-86.685,0-156.957,70.272-156.957,156.957V768.962c0,86.685,70.272,156.957,156.957,156.957H769.29c86.685,0,156.957-70.272,156.957-156.957V254.382c0-86.685-70.272-156.957-156.957-156.957Z" style="fill: #fcfcfc; filter: url(#b);"/>
+  <path d="M771.599,533.076v-168.527c0-62.119-50.357-112.476-112.476-112.476H364.877c-62.119,0-112.476,50.357-112.476,112.476v36.393" style="fill: none; stroke: #2d2d2d; stroke-miterlimit: 10; stroke-width: 55px;"/>
+  <path d="M252.401,489.478v169.317c0,62.119,50.357,112.476,112.476,112.476h294.247c62.119,0,112.476-50.357,112.476-112.476v-37.183" style="fill: none; stroke: #2d2d2d; stroke-miterlimit: 10; stroke-width: 55px;"/>
+  <path d="M187.09,400.942h154.138c58.313,0,92.863,25.586,170.705,110.335,77.842,84.749,112.392,110.335,170.705,110.335h154.138" style="fill: none; stroke: #2d2d2d; stroke-miterlimit: 10; stroke-width: 55px;"/>
+</svg>
