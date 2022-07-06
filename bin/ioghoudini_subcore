@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+BASEDIR=$(dirname "$0")
+
+# Start the Houdini python interpreter with the 'hython' executable and
+# run the subcore process.
+hython "$BASEDIR/ioghoudini_subcore.py" "$@"
