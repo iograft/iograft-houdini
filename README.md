@@ -58,21 +58,18 @@ To use iograft within a Houdini interactive session, we need to ensure the iogra
 
 This is the easiest method to begin using iograft within Houdini. The "plugin" directory of this repository contains an `iografthoudini.json` package definition containing information for initializing iograft's Houdini plugin.
 
-To install the iograft package, simply create a "packages" subdirectory inside your Houdini preferences directory (i.e. C:/Users/dtkno/Documents/houdini19.0/packages) and place the `iografthoudini.json` file from this repository into that package folder.
+To install the iograft package, simply create a "packages" subdirectory inside your Houdini preferences directory (i.e. C:/Users/dtkno/Documents/houdini19.0/packages) and place the `iografthoudini.json` file from this repository into that package folder. For help on where to copy this package JSON, see the [Houdini Docs](https://www.sidefx.com/docs/houdini/ref/plugins.html).
 
 Then you will need to edit the `iografthoudini.json` file to point to your specific iograft locations and houdini environment name.
 - `IOGRAFT_HOUDINI` should point to the "plugin" directory of this repository.
 - `IOGRAFT_HOUDINI_ENV` should be the name of the iograft environment created for Houdini.
 - `PYTHONPATH` should be updated to either the python37 or python27 directory of the iograft installation based on which version of Houdini you are using.
 
-<details><summary>iografthoudini Package Config File</summary>
-<p>
-
 ```json
 {
     "env": [
         {
-            "IOGRAFT_HOUDINI": "C:/Users/iograft/Projects/iograft-houdini/plugin"
+            "IOGRAFT_HOUDINI": "C:/Users/dtkno/Projects/iograft-public/iograft-houdini/plugin"            
         },
         {
             "IOGRAFT_HOUDINI_ENV": "houdini19"
@@ -87,9 +84,6 @@ Then you will need to edit the `iografthoudini.json` file to point to your speci
     "path": "$IOGRAFT_HOUDINI"
 }
 ```
-
-</p>
-</details>
 
 Once updated, verify that the package is loading properly by using the "+" button next to the Shelf menu and toggling on the shelf named "iograft".
 
