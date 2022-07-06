@@ -65,9 +65,6 @@ Then you will need to edit the `iografthoudini.json` file to point to your speci
 - `IOGRAFT_HOUDINI_ENV` should be the name of the iograft environment created for Houdini.
 - `PYTHONPATH` should be updated to either the python37 or python27 directory of the iograft installation based on which version of Houdini you are using.
 
-<details><summary>iografthoudini Package Config File</summary>
-<p>
-
 ```json
 {
     "env": [
@@ -87,9 +84,6 @@ Then you will need to edit the `iografthoudini.json` file to point to your speci
     "path": "$IOGRAFT_HOUDINI"
 }
 ```
-
-</p>
-</details>
 
 Once updated, verify that the package is loading properly by using the "+" button next to the Shelf menu and toggling on the shelf named "iograft".
 
