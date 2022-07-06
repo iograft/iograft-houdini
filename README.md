@@ -85,7 +85,7 @@ Then you will need to edit the `iografthoudini.json` file to point to your speci
 }
 ```
 
-Once updated, verify that the package is loading properly by using the "+" button next to the Shelf menu and toggling on the shelf named "iograft".
+Once updated, verify that the package is loading properly into Houdini by using the "+" button next to Houdini's Shelf menu and toggle on the shelf named "iograft".
 
 ### iograft Shelf Tools
 
