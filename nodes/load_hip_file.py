@@ -23,6 +23,7 @@ class HipFileLoad(iograft.Node):
     @classmethod
     def GetDefinition(cls):
         node = iograft.NodeDefinition("load_hip_file")
+        node.SetMenuPath("Houdini")
         node.AddInput(cls.filename)
         node.AddInput(cls.suppress_save_prompt)
         node.AddInput(cls.ignore_load_warnings)

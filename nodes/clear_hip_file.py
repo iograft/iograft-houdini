@@ -18,6 +18,7 @@ class HipFileClear(iograft.Node):
     @classmethod
     def GetDefinition(cls):
         node = iograft.NodeDefinition("clear_hip_file")
+        node.SetMenuPath("Houdini")
         node.AddInput(cls.suppress_save_prompt)
         return node
 

@@ -20,6 +20,7 @@ class HipFileSave(iograft.Node):
     @classmethod
     def GetDefinition(cls):
         node = iograft.NodeDefinition("save_hip_file")
+        node.SetMenuPath("Houdini")
         node.AddInput(cls.filename)
         node.AddInput(cls.save_to_recent_files)
         node.AddOutput(cls.out_filename)
